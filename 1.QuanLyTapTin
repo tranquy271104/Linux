@@ -27,6 +27,7 @@ liệt kê file và thư mục -> ls
 liệt kê tất cả các file và thư mục con -> ls -l 
     => các mục bắt đầu bằng d..... đại diện cho các thư mục
 
+liệt kê tất cả các file và thư mục ẩn -> ls -a 
 drwxrwxr-x  2 amrood amrood      4096 Dec 25 09:59 uml
 -rw-rw-r--  1 amrood amrood      5341 Dec 25 08:38 uml.jpg
 drwxr-xr-x  2 amrood amrood      4096 Feb 15  2006 univ
@@ -54,13 +55,31 @@ Cột thứ sáu - Biểu thị ngày và giờ tệp này được tạo hoặc
 
 Cột thứ bảy - Biểu thị tên tệp hoặc thư mục.
 
+tìm kí tự -> * , ? 
+ví dụ: ls ch* , còn ? dùng tìm 1 kí tự 
 
+trình soạn thảo vim tạo file thông thường -> vi 
+    => i vào chế độ chỉnh sửa , esc thoát chế độ chỉnh sửa , shift + zz để thoát 
+        + l di chuyển sang phải h di chuyển sang trái j di chuyển xuống k di chuyển lên 
 
+hiển thị nội dung của file -> cat 
+    => hiển thị số -> cat -b filename 
 
+đếm số trong file -> wc 
+    Cột đầu tiên - Biểu thị tổng số dòng trong tệp.
+    Cột thứ hai - Biểu thị tổng số từ trong tệp.
+    Cột thứ ba – Biểu thị tổng số byte trong tệp. Đây là kích thước thực tế của tệp.
+    Cột thứ tư - Biểu thị tên tệp.
 
+sao chép tập tin -> cp 
 
+đổi tên tập tin -> mv 
 
+xóa tập tin -> rm
+    có thể xóa nhiều -> rm filename1 filename2 filename3
 
+Tạo liên kết tượng trưng trên các tệp -> ln -s filename symlink 
+tạo liên kết cứng trên một tập tin -> ln filename hardlink 
 
 
 
