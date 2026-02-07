@@ -1,0 +1,66 @@
+Dấu nhắc lệnh -> $
+
+người dùng root -> sudo 
+
+tôi là ai -> whoami 
+
+ai đang đăng nhập? -> users , who , w 
+
+đăng xuất -> logout 
+
+tắt hệ thống -> reboot , halt , shutdown , init 0 , init 6 , poweroff 
+
+tạo thư mục -> mkdir 
+
+truy cập vào thư mục -> cd 
+    => Linux sử dụng một dấu chấm ( .) để biểu thị thư mục hiện tại và hai dấu chấm (..) để biểu thị thư mục cha. lùi về thư mục gốc -> cd .. 
+thư mục gốc -> /
+
+kiểm tra lịch -> cal 
+
+thay đổi mật khẩu -> passwd 
+
+Trong Linux, có ba loại tập tin cơ bản -> tệp thông thường , thư mục , tập tin đặc biệt 
+
+liệt kê file và thư mục -> ls 
+
+liệt kê tất cả các file và thư mục con -> ls -l 
+    => các mục bắt đầu bằng d..... đại diện cho các thư mục
+
+drwxrwxr-x  2 amrood amrood      4096 Dec 25 09:59 uml
+-rw-rw-r--  1 amrood amrood      5341 Dec 25 08:38 uml.jpg
+drwxr-xr-x  2 amrood amrood      4096 Feb 15  2006 univ
+drwxr-xr-x  2 root   root        4096 Dec  9  2007 urlspedia
+-rw-r--r--  1 root   root      276480 Dec  9  2007 urlspedia.tar
+drwxr-xr-x  8 root   root        4096 Nov 25  2007 usr
+drwxr-xr-x  2    200    300      4096 Nov 25  2007 webthumb-1.01
+-rwxr-xr-x  1 root   root        3192 Nov 25  2007 webthumb.php
+-rw-rw-r--  1 amrood amrood     20480 Nov 25  2007 webthumb.tar
+-rw-rw-r--  1 amrood amrood      5654 Aug  9  2007 yourfile.mid
+-rw-rw-r--  1 amrood amrood    166255 Aug  9  2007 yourfile.swf
+drwxr-xr-x 11 amrood amrood      4096 May 29  2007 zlib-1.2.3
+
+Cột đầu tiên – Biểu thị loại tệp và quyền truy cập được cấp cho tệp đó. 
+
+Cột thứ hai - Biểu thị số lượng khối bộ nhớ mà tệp hoặc thư mục chiếm dụng.
+
+Cột thứ ba − Biểu thị chủ sở hữu của tệp. Đây là người dùng Linux đã tạo ra tệp này.
+
+Cột thứ tư − Biểu thị nhóm của người dùng. Mỗi người dùng Linux sẽ có một nhóm liên kết.
+
+Cột thứ năm - Biểu thị kích thước tệp tin tính bằng byte.
+
+Cột thứ sáu - Biểu thị ngày và giờ tệp này được tạo hoặc sửa đổi lần cuối.
+
+Cột thứ bảy - Biểu thị tên tệp hoặc thư mục.
+
+
+
+
+
+
+
+
+
+
+
