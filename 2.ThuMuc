@@ -1,0 +1,64 @@
+/bin	
+các ứng dụng nhị phân quan trọng
+
+/boot	
+Các tệp cấu hình khởi động, nhân hệ điều hành và các tệp khác cần thiết trong quá trình khởi động.
+
+/dev	
+Các tệp thiết bị hệ thống.
+
+/etc	
+các tệp cấu hình, tập lệnh khởi động, v.v.
+
+/home	
+Danh sách thư mục chính của các người dùng khác nhau
+
+/lib	
+thư viện hệ thống, thư viện dùng chung
+
+/lost+found	
+một hệ thống tìm kiếm và lưu trữ các tập tin nằm trong thư mục gốc (/)
+
+/media	
+Tự động gắn kết (tải) các phân vùng trên ổ cứng và các thiết bị lưu trữ di động như đĩa CD, máy ảnh kỹ thuật số, v.v.
+
+/mnt	
+các hệ thống tập tin được gắn thủ công trên ổ cứng của bạn
+
+/opt	
+Các ứng dụng của bên thứ 3 sẽ được cài đặt
+
+/proc	
+Lưu trữ thông tin về trạng thái của hệ thống, bao gồm cả các tiến trình đang chạy.
+
+/root	
+Thư mục chính của người dùng root.
+
+/sbin	
+các tệp nhị phân hệ thống quan trọng
+
+/srv	
+Chứa các tệp được cung cấp cho các hệ thống khác.
+
+/sys	
+tệp hệ thống
+
+/tmp	
+tệp tạm thời
+
+/usr	
+các ứng dụng và tệp tin mà hầu hết người dùng đều có thể truy cập.
+
+/var	
+các tệp thay đổi như nhật ký và cơ sở dữ liệu
+
+
+
+
+
+
+
+
+
+
+
