@@ -52,6 +52,14 @@ các ứng dụng và tệp tin mà hầu hết người dùng đều có thể 
 /var	
 các tệp thay đổi như nhật ký và cơ sở dữ liệu
 
+đường dẫn tuyệt đối thường sẽ có / đầu 
+đường dẫn tương đối không bao giờ bắt đầu bằng / 
+
+Xác định vị trí hiện tại : pwd 
+
+tạo thư mục hiện tại : mkdir docs pub 
+
+xóa thư mục : rmdir 
 
 
 
