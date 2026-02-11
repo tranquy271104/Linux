@@ -1,1 +1,132 @@
+Bài 1
+Tạo thư mục lab1 và vào đó.
+
+Bài 2
+Tạo 3 file:
+  file1.txt
+  file2.txt
+  notes.doc
+
+Bài 3
+Hiển thị tất cả file trong thư mục (bao gồm file ẩn).
+
+Bài 4
+Hiển thị danh sách file dạng chi tiết (long listing).
+
+Bài 5
+Tạo 1 file ẩn tên:
+  .secret
+Sau đó kiểm tra nó có hiển thị khi dùng ls không 
+
+Bài 6
+Dùng vi tạo file story.txt và ghi 5 dòng nội dung bất kỳ.
+
+Bài 7
+Hiển thị nội dung file bằng:
+cat
+
+Bài 8
+Hiển thị nội dung kèm số dòng.
+
+Bài 9
+Dùng wc để đếm:
+  số dòng
+  số từ
+  số byte
+
+Bài 10
+Copy story.txt thành backup.txt.
+
+Bài 11
+Đổi tên backup.txt thành story_backup.txt.
+
+Bài 12
+Xoá file file1.txt.
+
+Bài 13
+Xoá nhiều file cùng lúc.
+
+Bài 14
+Tạo các file sau:
+  ch01.doc
+  ch02.doc
+  ch03.txt
+  ch04.doc
+
+Bài 15
+Liệt kê tất cả file .doc.
+
+Bài 16
+Liệt kê tất cả file bắt đầu bằng ch.
+
+Bài 17
+Liệt kê file có 2 chữ số sau ch và kết thúc bằng .doc.
+
+Bài 18
+Tạo file main.txt.
+
+Bài 19
+Tạo:
+1 symbolic link
+1 hard link
+
+Bài 20
+Xoá file gốc main.txt.
+Quan sát điều gì xảy ra với:
+hard link
+symbolic link
+=> Giải thích vì sao.
+
+Bài 21
+Tạo cấu trúc thư mục dạng:
+
+project/
+ ├── src/
+ ├── docs/
+ ├── backup/
+
+
+Bài 22
+Copy tất cả file .doc vào docs.
+
+Bài 23
+Move toàn bộ file .txt vào backup.
+
+Bài 24
+Xoá thư mục backup và toàn bộ nội dung bên trong.
+
+Bài 25
+Dùng chỉ 1 dòng lệnh để:
+Tạo 5 file cùng lúc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
