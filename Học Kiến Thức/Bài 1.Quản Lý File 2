@@ -1,0 +1,153 @@
+# 📌 File Management trong Linux là gì?
+Khi làm việc với Linux, chúng ta sử dụng rất nhiều loại file:
+  * File nhị phân (binary) → chương trình thực thi
+  * File văn bản (text) → mã nguồn, tài liệu
+  * File người dùng tạo → Word, Excel, PowerPoint, v.v.
+Trong Linux:
+> Mọi thứ đều là file.
+Tất cả dữ liệu được tổ chức thành file, và các file được sắp xếp trong thư mục (directory).
+Các thư mục này tạo thành một cấu trúc dạng cây gọi là filesystem (hệ thống tập tin).
+# 📁 File System trong Linux
+File System có nhiệm vụ:
+  * Lưu trữ dữ liệu trên ổ cứng
+  * Truy xuất dữ liệu
+  * Cập nhật thông tin
+Một số hệ thống file phổ biến:
+  * FAT16
+  * FAT32
+  * NTFS
+  * Ext2
+  * Ext3
+  * Ext4 (phổ biến nhất trong Linux)
+# 📂 Các loại file trong Linux
+Linux có 3 loại file chính:
+## 1️⃣ Ordinary Files (File thông thường)
+Chứa:
+  * Văn bản
+  * Dữ liệu
+  * Chương trình
+Ví dụ:
+file.txt
+program.c
+app.out
+## 2️⃣ Directories (Thư mục)
+  * Chứa file và thư mục khác
+  * Tương tự folder trong Windows
+Ví dụ:
+/home/user/Documents
+## 3️⃣ Special Files (File đặc biệt)
+Dùng để truy cập phần cứng hoặc giao tiếp hệ thống:
+  * Ổ cứng
+  * USB
+  * Card mạng
+  * Pipe
+  * Socket
+# 📌 Lệnh quản lý file quan trọng
+# 🔹 1. Liệt kê file – `ls`
+ls
+ls -l
+ls -a
+  * `ls` → danh sách cơ bản
+  * `ls -l` → thông tin chi tiết
+  * `ls -a` → hiển thị cả file ẩn
+# 🔹 2. Ý nghĩa `ls -l`
+Ví dụ:
+drwxr-xr-x
+Ký tự đầu tiên cho biết loại file:
+
+| Ký tự | Ý nghĩa          |
+| ----- | ---------------- |
+| -     | File thường      |
+| d     | Directory        |
+| l     | Symbolic link    |
+| b     | Block device     |
+| c     | Character device |
+| p     | Named pipe       |
+| s     | Socket           |
+
+Các cột còn lại gồm:
+  * Số block
+  * Chủ sở hữu
+  * Nhóm
+  * Kích thước (bytes)
+  * Ngày chỉnh sửa
+  * Tên file
+# 🔹 3. Metacharacters (Wildcard)
+
+| Ký hiệu | Ý nghĩa            |
+| ------- | ------------------ |
+| `*`     | 0 hoặc nhiều ký tự |
+| `?`     | 1 ký tự            |
+
+Ví dụ:
+ls *.doc
+→ Hiển thị tất cả file kết thúc bằng `.doc`
+ls ch*.doc
+→ Bắt đầu bằng `ch` và kết thúc `.doc`
+# 🔹 4. File ẩn
+File bắt đầu bằng dấu chấm `.` là file ẩn:
+Ví dụ:
+.profile
+.kshrc
+.rhosts
+Hiển thị file ẩn:
+ls -a
+Ký hiệu đặc biệt:
+.   → thư mục hiện tại
+..  → thư mục cha
+# 🔹 5. Tạo file bằng vi
+vi filename
+Các bước:
+1. Nhấn `i` → vào chế độ soạn thảo
+2. Gõ nội dung
+3. Nhấn `Esc`
+4. Nhấn `Shift + ZZ` → lưu và thoát
+# 🔹 6. Xem nội dung file
+cat filename
+Hiển thị số dòng:
+cat -b filename
+# 🔹 7. Đếm dòng / từ / byte
+wc filename
+Kết quả:
+lines words bytes filename
+Ví dụ:
+2 22 116 filename
+# 🔹 8. Copy file – `cp`
+cp source destination
+Ví dụ:
+cp file1 file2
+# 🔹 9. Đổi tên / Di chuyển – `mv`
+mv oldname newname
+Lệnh `mv` vừa đổi tên vừa di chuyển file.
+# 🔹 10. Xóa file – `rm`
+rm filename
+An toàn hơn:
+rm -i filename
+Xóa nhiều file:
+rm file1 file2 file3
+⚠ Lưu ý: Xóa là mất vĩnh viễn.
+# 🔹 11. Tạo link
+## Symbolic Link (Shortcut)
+ln -s filename symlink
+  * Giống shortcut
+  * Có thể khác filesystem
+## Hard Link
+ln filename hardlink
+  * Cùng inode
+  * Không qua filesystem khác
+  * Xóa file gốc vẫn còn hard link
+# 🔥 Tổng kết quan trọng
+* Linux tổ chức mọi thứ thành file.
+* File nằm trong directory.
+* Các lệnh quan trọng:
+    ls
+    cp
+    mv
+    rm
+    cat
+    wc
+    ln
+    vi
+  * File có nhiều loại (regular, directory, special).
+  * Có thể tạo symbolic link và hard link.
+  * Wildcard giúp thao tác nhiều file cùng lúc.
