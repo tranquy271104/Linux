@@ -1,0 +1,71 @@
+
+### 🟢 Giai đoạn 1: Kỹ năng sinh tồn (Học trong 3-5 ngày)
+
+Đây là những thứ giúp bạn "sống sót" khi vừa mở màn hình đen lên.
+
+1. **Unix / Linux - Linux là gì?** (Nắm khái niệm Kernel, Shell).
+2. **Unix / Linux - Hướng dẫn bắt đầu** (Cách đăng nhập, giao diện dòng lệnh).
+3. **Unix / Linux - Thư mục** (Học lệnh `ls`, `cd`, `pwd`, `mkdir`).
+4. **Unix / Linux - Quản lý tập tin** (Học lệnh `cp`, `mv`, `rm`, `touch`, `cat`).
+5. **Unix/Linux - Quyền truy cập tập tin**
+*
+* *Trọng tâm:* Phải hiểu số 755, 644 và lệnh `chmod`, `chown`.
+
+
+6. **Unix / Linux - Trình soạn thảo vi** (Bắt buộc phải biết để sửa file cấu hình).
+7. **Unix / Linux - Trang hướng dẫn sử dụng (Manpage Help)** (Để biết cách tự tra cứu lệnh khi quên).
+
+---
+
+### 🔵 Giai đoạn 2: Quản trị & Vận hành (Học trong 5-7 ngày)
+
+Đây là những gì một Intern System Admin sẽ làm hàng ngày trên Server.
+
+8. **Quản trị người dùng Unix/Linux** (Tạo user, group, phân quyền `sudo`).
+9. **Unix / Linux - Các tiến trình (Processes)** (Dùng `top`, `ps`, `kill` để quản lý ứng dụng).
+10. **Unix / Linux - Hiệu suất hệ thống** (Kiểm tra RAM, CPU, Disk còn trống bao nhiêu).
+11. **Unix / Linux - Ghi nhật ký hệ thống (Logs)** (Cách đọc file log trong `/var/log` để tìm lỗi).
+12. **Unix/Linux - Kiến thức cơ bản về hệ thống tập tin** (Hiểu về cách Linux lưu trữ dữ liệu).
+13. **Unix / Linux - Liên kết tệp (Links)** (Phân biệt Soft link và Hard link).
+14. **Unix/Linux - Các tiện ích cơ bản** (Các lệnh nén file `tar`, `zip`, lệnh mạng cơ bản).
+
+---
+
+### 🟡 Giai đoạn 3: Làm chủ dòng lệnh chuyên sâu (Học trong 5 ngày)
+
+Kỹ năng này giúp bạn xử lý dữ liệu cực nhanh, nhà tuyển dụng rất thích người giỏi phần này.
+
+15. **Unix / Linux - Chuyển hướng IO (I/O Redirection)** (Dùng `>`, `>>`, `<` để ghi kết quả vào file).
+16. **Unix / Linux - Luồng I/O chuẩn (Standard Streams)** (Hiểu về `stdin`, `stdout`, `stderr`).
+17. **Unix / Linux - Đường ống và bộ lọc (Pipes & Filters)**
+*
+* *Trọng tâm:* Kết hợp các lệnh lại với nhau bằng dấu `|`.
+
+
+18. **Unix / Linux - Biểu thức chính quy (Regex)** (Dùng để tìm kiếm văn bản phức tạp với `grep`).
+
+---
+
+### 🔴 Giai đoạn 4: Tự động hóa với Shell Script (Học trong 1-2 tuần)
+
+Khi bạn đã thạo việc chân tay, hãy bắt đầu học cách viết Script để máy tự làm.
+
+19. **Unix/Linux - Shell là gì?**
+20. **Unix / Linux - Lập trình Shell (Shell Scripting)** (Cách tạo file `.sh`).
+21. **Unix/Linux - Sử dụng biến** & **Các biến đặc biệt**.
+22. **Unix/Linux - Các toán tử cơ bản** (Cộng, trừ, nhân, chia, so sánh).
+23. **Unix/Linux - Quá trình ra quyết định (Decision Making)** (Lệnh `if...else`).
+24. **Unix / Linux - Vòng lặp Shell (Loops)** (Vòng lặp `for`, `while`).
+25. **Unix / Linux - Thay thế lệnh trong Shell**.
+26. **Unix / Linux - Cơ chế trích dẫn (Quoting)** (Phân biệt `' '` và `" "`).
+
+---
+
+### ⚪ Các mục có thể học sau (Nâng cao/Ít dùng):
+
+* *Unix/Linux - Sử dụng mảng* (Chỉ dùng khi làm script cực khó).
+* *Unix / Linux - Các hàm của trình shell* (Khi script quá dài mới cần chia hàm).
+* *Unix / Linux - Giao tiếp* (Các lệnh chat cổ điển, ít dùng).
+* *Unix/Linux - Tín hiệu và bẫy (Signals & Traps)* (Dành cho mức độ Senior hơn).
+* *Môi trường Unix/Linux* (Các biến môi trường sâu, có thể tra cứu khi cần).
+
