@@ -1,7 +1,7 @@
 ## 1️⃣ Quản lý tập tin trong Linux là gì?
 Quản lý tập tin trong Linux là cách hệ điều hành:
-* Tổ chức dữ liệu thành **file (tập tin)**
-* Sắp xếp file vào **thư mục (directory)**
+* Tổ chức dữ liệu thành file (tập tin)
+* Sắp xếp file vào thư mục (directory)
 * Lưu trữ, truy xuất, chỉnh sửa và bảo vệ dữ liệu
 
 Trong Linux, mọi thứ đều là file:
